@@ -1,0 +1,53 @@
+.navbar {
+    padding: 20px 0;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            font-weight: bold;
+            font-size: 30px;
+            color: #333;
+            font-family: 'Righteous', cursive;  
+            @media (max-width: 767px) {
+                font-size: 26px;
+            }
+            @media (max-width: 576px) {
+                font-size: 22px;
+            }      
+        }
+
+        .nav-right{
+            display: flex;
+            align-items: center;
+
+            p {
+                text-transform: lowercase;
+                font-size: 17px;
+                color: #333;
+                margin-right: 20px;
+            }
+
+            .btn {
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                padding: 8px 16px;
+                background-color: coral;
+                color: #fff;
+                font-weight: bolder;
+
+                img {
+                    width: 25px; 
+                    margin-left: 10px;                   
+                }
+
+                @media (max-width: 767px) {
+                    padding: 6px 12px;
+                }
+            }
+
+        }
+    }
+}
